@@ -1,0 +1,14 @@
+{
+  "Ours (MobileNetV2+ArcFace)": {
+    "auc": 0.8902923472222223,
+    "eer": 0.1955,
+    "tar_at_far_1pct": 0.2771666666666667,
+    "best_accuracy": 0.8065
+  },
+  "Pretrained FaceNet": {
+    "auc": 0.9994697222222222,
+    "eer": 0.011166666666666667,
+    "tar_at_far_1pct": 0.9885,
+    "best_accuracy": 0.9894166666666666
+  }
+}

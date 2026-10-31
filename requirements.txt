@@ -1,0 +1,8 @@
+tensorflow>=2.16,<2.22
+mtcnn==0.1.1
+keras-facenet==0.3.2
+setuptools<81
+opencv-python>=4.8
+numpy
+scikit-learn
+matplotlib
