@@ -1,6 +1,6 @@
 1. **Live demo (`demo.py`)**: webcam, detection (MTCNN) + pretrained FaceNet embeddings + cosine matching. Works within the first hour.
 2. **Personal model (`train_arcface.py` + `evaluate.py`)**: MobileNetV2 trained with ArcFace loss on LFW, evaluated on identities it has never seen, compared against pretrained FaceNet with an ROC curve.
-
+NOTE: Python version used is 3.13 as it supports MTCNN, TensorFlow. Python 3.14 has limited TensorFlow support and no MTCNN.
 ## Setup
 1) Open a terminal and set the current directory to the directory with your files.
 ```bash
